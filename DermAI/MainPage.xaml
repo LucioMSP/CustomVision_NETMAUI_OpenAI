@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DermAI.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label Text="Open AI Challenge - Accenture"
+                   FontSize="18"
+                   HorizontalOptions="Center" />
+
+            <Image x:Name="Photo" 
+                   Aspect="AspectFill"
+                   HeightRequest="350"
+                   WidthRequest="350" />    
+            
+            <Button x:Name="TakePhotoBtn"
+                    Text="Take photo"
+                    Clicked="OnPhotoClicked"
+                    HorizontalOptions="Center" />
+
+            <Label x:Name="Result"></Label>
+
+            <Label x:Name="Recommendation"></Label>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

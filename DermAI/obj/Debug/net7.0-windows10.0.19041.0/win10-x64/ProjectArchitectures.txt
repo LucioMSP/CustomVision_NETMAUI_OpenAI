@@ -1,0 +1,1 @@
+C:\Solutions\GitHub_VGGL\DermAI\DermAI\DermAI.csproj;x64
